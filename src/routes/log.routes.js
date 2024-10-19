@@ -1,21 +1,7 @@
+import express from "express"
+import { getAllData } from "../controllers/main.controller.js"
 
-import express from "express";
+const router  = express.Router()
 
-productsRouter.get("/",(req,res,next)=>{
-    console.log("Ali");
-    
 
-}),
-
-//GET BY ID
-productsRouter.put("/:id"(req,res,next)=>{
-    console.log("Vali")
-    
-}),
-
-//CREATE
-productsRouter.post("/"(req,res,next)=>{
-    console.log();
-    
-})
-
+router.get("/", getAllData)
