@@ -1,1 +1,3 @@
-console.log("SALOMAT git ! :)")
+console.log("nvim zero to hero ! :(")
+console.log("Hello git ! :)")
+
